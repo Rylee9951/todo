@@ -1,0 +1,17 @@
+.App{
+	width: 400px;
+	margin: auto;
+}
+input{
+	width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ul{
+	list-style: none;
+    margin: 0px 0 0 -30px;
+    width: 305px;
+}
+li{
+	border: 1px solid #ccc;
+}
