@@ -18,7 +18,7 @@ class TodoList extends Component {
       <div>
       	<ul>
       		{this.state.todos.map(item =>{
-      			return <li>{item.todo}</li>
+      			return <li><input type="checkbox"/>{item.todo}<button>Delete</button></li>
       		})}
       	</ul>
       </div>
